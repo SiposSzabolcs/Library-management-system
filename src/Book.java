@@ -15,7 +15,6 @@ public class Book {
     public void borrowBook(){
         if (!borrowed){
             this.borrowed = true;
-            System.out.printf("%s book has been borrowed.\n", this.title);
         } else {
             System.out.printf("%s book already borrowed.\n", this.title);
         }
